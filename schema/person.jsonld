@@ -8,10 +8,16 @@
     "https://github.com/YOUR-GITHUB-USERNAME"
   ],
   "knowsAbout": [
-    "Statistical Analysis",
     "Research Design",
-    "Machine Learning",
+    "Statistical Analysis",
     "Data Science",
-    "Reproducible Research"
+    "Reproducible Research",
+    "Machine Learning",
+    "Python",
+    "R",
+    "RStudio",
+    "SAS",
+    "SPSS",
+    "SQL"
   ]
 }
