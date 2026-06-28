@@ -1,1 +1,70 @@
-
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Academic Research Consulting",
+  "provider": {
+    "@type": "Person",
+    "name": "Dawn Marie Daras",
+    "url": "https://YOUR-GITHUB-USERNAME.github.io/academic_design_consulting/"
+  },
+  "serviceType": [
+    "Research Design Consulting",
+    "Statistical Analysis",
+    "Data Science Consulting",
+    "Machine Learning Consulting",
+    "Reproducible Research Consulting"
+  ],
+  "areaServed": {
+    "@type": "Place",
+    "name": "United States"
+  },
+  "description": "Professional academic research consulting services specializing in research design, statistical modeling, data science workflows, and reproducible research using Python, R, RStudio, SAS, and SPSS.",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Consulting Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Research Design & Hypothesis Development"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Statistical Analysis (Python, R, SAS, SPSS)"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Data Science & Predictive Modeling"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Machine Learning Workflow Development"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Reproducible Research Systems"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Academic Writing & Publication Support"
+        }
+      }
+    ]
+  }
+}
