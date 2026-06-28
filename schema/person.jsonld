@@ -3,24 +3,26 @@
   "@type": "Person",
   "name": "Dawn Marie Daras",
   "jobTitle": "Behavioral Data Scientist & Research Consultant",
-  "url": "https://YOUR-GITHUB-USERNAME.github.io/academic_design_consulting/",
-  "mainEntityOfPage": "https://www.mariedarasllc.com",
+
+  "url": "https://www.mariedarasllc.com",
 
   "sameAs": [
     "https://www.mariedarasllc.com",
-    "https://mariedarasphd.github.io/academic_design_consulting/"
+    "https://YOUR-GITHUB-USERNAME.github.io/academic_design_consulting/"
   ],
 
   "knowsAbout": [
     "Statistical Analysis",
     "Research Design",
-    "Data Science",
+    "Behavioral Data Science",
     "Python",
     "R",
     "SAS",
     "SPSS",
     "Reproducible Research"
   ],
+
+  "mainEntityOfPage": "https://www.mariedarasllc.com",
 
   "worksFor": {
     "@type": "Organization",
