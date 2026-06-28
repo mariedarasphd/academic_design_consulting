@@ -5,66 +5,17 @@
   "provider": {
     "@type": "Person",
     "name": "Dawn Marie Daras",
-    "url": "https://YOUR-GITHUB-USERNAME.github.io/academic_design_consulting/"
+    "url": "https://mariedarasphd.github.io/academic_design_consulting/"
   },
   "serviceType": [
-    "Research Design Consulting",
-    "Statistical Analysis",
-    "Data Science Consulting",
-    "Machine Learning Consulting",
-    "Reproducible Research Consulting"
+    "Statistical Consulting",
+    "Research Design",
+    "Data Science Consulting"
   ],
-  "areaServed": {
-    "@type": "Place",
-    "name": "United States"
-  },
-  "description": "Professional academic research consulting services specializing in research design, statistical modeling, data science workflows, and reproducible research using Python, R, RStudio, SAS, and SPSS.",
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Consulting Services",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Research Design & Hypothesis Development"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Statistical Analysis (Python, R, SAS, SPSS)"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Data Science & Predictive Modeling"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Machine Learning Workflow Development"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Reproducible Research Systems"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Academic Writing & Publication Support"
-        }
-      }
-    ]
+  "areaServed": "United States",
+  "url": "https://www.mariedarasllc.com",
+  "potentialAction": {
+    "@type": "CommunicateAction",
+    "target": "https://docs.google.com/forms/d/e/1FAIpQLSecD2LdV2-rGMR-wQJg3kQPxUfPr3BD1pjXRXuo6ZpISyu84g/viewform"
   }
 }
