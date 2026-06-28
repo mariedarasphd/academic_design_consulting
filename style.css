@@ -1,10 +1,18 @@
+/* =========================
+   GLOBAL RESET
+========================= */
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  font-family: Arial, sans-serif;
   background: #f8fbfc;
   color: #1a1a1a;
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 /* =========================
@@ -18,12 +26,11 @@ header {
 }
 
 header h1 {
+  font-size: 2.2rem;
   margin: 10px 0 5px;
-  font-size: 2rem;
 }
 
 header p {
-  margin: 10px 0;
   font-size: 1.1rem;
   opacity: 0.95;
 }
@@ -49,7 +56,7 @@ header p {
   display: block;
   margin: 15px auto;
   border: 3px solid white;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
 }
 
 /* =========================
@@ -69,27 +76,43 @@ header p {
 
 .cta:hover {
   background: #f0fdfa;
-  transform: translateY(-1px);
+  transform: translateY(-2px);
 }
 
 /* =========================
-   SECTIONS
+   MAIN CONTENT CONTAINER
+   (THIS FIXES "HUGE PAGE")
 ========================= */
 section {
   max-width: 900px;
   margin: 40px auto;
-  padding: 0 20px;
+  padding: 25px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
-section h2 {
-  color: #2c2c2c;
+/* =========================
+   HEADINGS
+========================= */
+h2 {
+  font-size: 1.4rem;
   margin-bottom: 10px;
+  color: #2c2c2c;
+}
+
+/* =========================
+   PARAGRAPHS
+========================= */
+p {
+  font-size: 1rem;
+  margin-bottom: 15px;
 }
 
 /* =========================
    LISTS
 ========================= */
-ul {
+ul, ol {
   padding-left: 20px;
 }
 
@@ -98,9 +121,21 @@ li {
 }
 
 /* =========================
-   INFOGRAPHIC
+   IMAGES
 ========================= */
+.logo {
+  width: 80px;
+}
+
+.headshot {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 .infographic {
+  width: 100%;
   max-width: 100%;
   height: auto;
   display: block;
@@ -126,15 +161,13 @@ a:hover {
 ========================= */
 footer {
   text-align: center;
-  padding: 25px;
+  padding: 30px;
   font-size: 12px;
   color: #666;
-  margin-top: 40px;
-  border-top: 1px solid #eaeaea;
 }
 
 /* =========================
-   MOBILE RESPONSIVE
+   RESPONSIVE MOBILE
 ========================= */
 @media (max-width: 600px) {
   header {
@@ -142,15 +175,16 @@ footer {
   }
 
   header h1 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+  }
+
+  section {
+    margin: 20px 10px;
+    padding: 18px;
   }
 
   .headshot {
     width: 110px;
     height: 110px;
-  }
-
-  section {
-    margin: 25px auto;
   }
 }
