@@ -2,22 +2,37 @@
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Dawn Marie Daras",
+
   "jobTitle": "Behavioral Data Scientist & Research Consultant",
+
   "url": "https://YOUR-GITHUB-USERNAME.github.io/academic_design_consulting/",
+
+  "mainEntityOfPage": "https://www.mariedarasllc.com",
+
   "sameAs": [
-    "https://github.com/YOUR-GITHUB-USERNAME"
+    "https://github.com/YOUR-GITHUB-USERNAME",
+    "https://www.mariedarasllc.com"
   ],
+
   "knowsAbout": [
     "Research Design",
     "Statistical Analysis",
     "Data Science",
-    "Reproducible Research",
     "Machine Learning",
+    "Reproducible Research",
     "Python",
     "R",
     "RStudio",
     "SAS",
     "SPSS",
     "SQL"
-  ]
+  ],
+
+  "description": "Dawn Marie Daras is a behavioral data scientist and research consultant specializing in statistical modeling, research design, data science workflows, machine learning systems, and reproducible research using Python, R, SAS, and SPSS.",
+
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Marie Daras LLC",
+    "url": "https://www.mariedarasllc.com"
+  }
 }
