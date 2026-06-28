@@ -28,11 +28,29 @@
     "SQL"
   ],
 
-  "description": "Dawn Marie Daras is a behavioral data scientist and research consultant specializing in statistical modeling, research design, data science workflows, machine learning systems, and reproducible research using Python, R, SAS, and SPSS.",
-
   "worksFor": {
     "@type": "Organization",
     "name": "Marie Daras LLC",
     "url": "https://www.mariedarasllc.com"
+  },
+
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "consulting inquiries",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSecD2LdV2-rGMR-wQJg3kQPxUfPr3BD1pjXRXuo6ZpISyu84g/viewform",
+    "availableLanguage": ["English"]
+  },
+
+  "potentialAction": {
+    "@type": "CommunicateAction",
+    "name": "Request a Consultation",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://docs.google.com/forms/d/e/1FAIpQLSecD2LdV2-rGMR-wQJg3kQPxUfPr3BD1pjXRXuo6ZpISyu84g/viewform",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform",
+        "http://schema.org/MobileWebPlatform"
+      ]
+    }
   }
 }
