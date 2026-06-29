@@ -1,19 +1,36 @@
 {
   "@context": "https://schema.org",
   "@type": "Service",
-  "name": "Academic Research Consulting",
+  "name": "Dissertation Statistical Consulting & Research Design",
+
   "provider": {
     "@type": "Person",
     "name": "Dawn Marie Daras",
     "url": "https://mariedarasphd.github.io/academic_design_consulting/"
   },
+
   "serviceType": [
     "Statistical Consulting",
     "Research Design",
-    "Data Science Consulting"
+    "Data Science Consulting",
+    "Dissertation Support",
+    "Thesis Analysis"
   ],
-  "areaServed": "United States",
-  "url": "https://www.mariedarasllc.com",
+
+  "areaServed": [
+    "United States",
+    "Utah"
+  ],
+
+  "url": "https://www.mariedarasllc.com/research-consulting",
+  "mainEntityOfPage": "https://www.mariedarasllc.com/research-consulting",
+
+  "sameAs": [
+    "https://scholar.google.com/citations?user=CylBwSQAAAAJ",
+    "https://orcid.org/0009-0004-8860-1181",
+    "https://rpubs.com/mariedaras/"
+  ],
+
   "potentialAction": {
     "@type": "CommunicateAction",
     "target": "https://docs.google.com/forms/d/e/1FAIpQLSecD2LdV2-rGMR-wQJg3kQPxUfPr3BD1pjXRXuo6ZpISyu84g/viewform"
