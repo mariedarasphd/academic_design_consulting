@@ -2,31 +2,45 @@
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Dawn Marie Daras",
-  "jobTitle": "Behavioral Data Scientist & Research Consultant",
+  "jobTitle": "Research Consultant & Behavioral Data Scientist",
 
   "url": "https://www.mariedarasllc.com",
 
+  "mainEntityOfPage": "https://www.mariedarasllc.com",
+
   "sameAs": [
     "https://www.mariedarasllc.com",
-    "https://YOUR-GITHUB-USERNAME.github.io/academic_design_consulting/"
+    "https://YOUR-GITHUB-USERNAME.github.io/academic_design_consulting/",
+    "https://scholar.google.com/citations?user=CylBwSQAAAAJ",
+    "https://orcid.org/0009-0004-8860-1181",
+    "https://rpubs.com/mariedaras/"
   ],
 
   "knowsAbout": [
-    "Statistical Analysis",
+    "Statistical Modeling",
     "Research Design",
     "Behavioral Data Science",
+    "Data Analysis",
     "Python",
     "R",
     "SAS",
     "SPSS",
-    "Reproducible Research"
+    "Reproducible Research",
+    "Predictive Modeling"
   ],
-
-  "mainEntityOfPage": "https://www.mariedarasllc.com",
 
   "worksFor": {
     "@type": "Organization",
     "name": "Marie Daras LLC",
     "url": "https://www.mariedarasllc.com"
+  },
+
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Research Consultant",
+    "occupationLocation": {
+      "@type": "Place",
+      "name": "United States"
+    }
   }
 }
