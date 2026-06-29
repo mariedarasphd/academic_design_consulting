@@ -19,14 +19,36 @@
   ],
 
   "areaServed": [
-    "United States",
-    "Utah"
+    "Utah",
+    "United States"
+  ],
+
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Graduate students, doctoral candidates, and academic researchers",
+    "geographicArea": {
+      "@type": "AdministrativeArea",
+      "name": "Utah"
+    }
+  },
+
+  "description": "Dissertation statistical consulting and research design services supporting graduate students and academic researchers in Utah and across the United States. Services are commonly used by researchers affiliated with Utah State University, University of Utah, Brigham Young University, Weber State University, and Bridgerland Technical College. Support includes statistical modeling, research design, data analysis, interpretation, and reproducible research workflows for thesis and dissertation projects.",
+
+  "knowsAbout": [
+    "Statistical Modeling",
+    "Research Design",
+    "Dissertation Methodology",
+    "Data Analysis",
+    "Behavioral Data Science",
+    "Python",
+    "R",
+    "SAS",
+    "SPSS",
+    "Reproducible Research"
   ],
 
   "url": "https://www.mariedarasllc.com/research-consulting",
   "mainEntityOfPage": "https://www.mariedarasllc.com/research-consulting",
-
-  "description": "Statistical consulting and research design services supporting dissertations, theses, and academic research projects through rigorous quantitative analysis and reproducible methodology.",
 
   "potentialAction": {
     "@type": "CommunicateAction",
